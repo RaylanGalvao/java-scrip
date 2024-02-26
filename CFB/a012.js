@@ -10,8 +10,21 @@
 
 // console.log(jogador3)
 
-const soma=(v1, v2, v3)=>{
-    return v1+v2+v3
-}
+const objs1=document.getElementsByTagName("div")
+const objs2=[...document.getElementsByTagName("div")]
 
-console.log(soma(1,5,4))
+objs2.forEach(element => {
+    element.innerHTML="curso"
+});
+
+console.log(objs1)
+console.log(objs2)
+
+// const soma=(v1, v2, v3)=>{
+//     return v1+v2+v3
+// }
+
+// let valores=[1,15,4]
+
+// console.log(soma(...valores))
+
