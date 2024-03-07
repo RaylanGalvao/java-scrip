@@ -22,7 +22,10 @@
         var nome = window.prompt('what is your nome')//vai perguntar seu nome
         window.alert('e um grande prazer em te conhecer, '+nome+'!')
         */
-        var n1 = window.prompt('digite um numero: '+ s)
+        var n1 = Number.parseInt(window.prompt('digite um numero: '+ s))
+        var n2 = Number.parseInt(window.prompt('digite outro numero: '))
+        var s = n1 + n2
+        window.alert('a soma dos valores é '+ s)
     </script>
 </body>
 </html>
