@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nacionalidade</title>
+</head>
+<body>
+    <h1>Sistemas de nacionalidade</h1>
+    Qual pais voce nasceu: <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar" onclick="veri()">  
+    <div id="res">
+
+    </div>
+    <script>
+        function veri(){
+            var txtv = document.querySelector('input#veri')
+            var res = document.querySelector('div#res')
+            var vel = ('pais.value')
+            res.innerHTML = `<p>voce nasceu no <strong>${vel}</strong></p>`
+            if (vel > 'brasil'){
+                res += `<p>voce é <strong>Brasileira<strong>`
+            }
+            res += `voce nao e brasileira`
+        }
+    </script>
+</body>
+</html>
