@@ -13,4 +13,4 @@ for (let pos in num){
 }
 
 let ponteiro = num.indexOf(8)
-console.log(ponteiro)
+console.log(ponteiro) 
