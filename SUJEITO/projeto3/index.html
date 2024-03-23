@@ -10,13 +10,16 @@
 <body>
     <h1>Formularios</h1>
     <form>
+
+        <label for="email">Seu email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
         <label for="pnome">first nome</label>
         <input type="text" id="pname" name="pnome" placeholder="Seu primeiro nome">
-        <br>
+        <br><br>
         <label for="lnome">last nome</label>
         <input type="text" id="lame" name="lnome" placeholder="Seu ultimo nome">
-        <br>
-        <br>
+        <br><br>
     <label><strong>Qual nivel de programador atualmente</strong></label><br><br>
         <label>
             <input type="radio" name="nivel" value iniciante checked>Sou iniciante</label>
@@ -35,23 +38,62 @@
                 <option>pos graduação</option>
             </select>
             <br><br>
-        <input type="submit" value="Cadastrar
-                    ">
-        <br><br>
+            
+            <label>
+                <strong>Selecione as tecnologias que voce usa</strong>
+                HTML</label><br><br>
+                
+                <input type="checkbox" id="tecnologias3" name="tecnologias3" value="HTML">
+                <label for="tecnologias3">HTML</label>
+                
+                <input type="checkbox" id="tecnologias1" name="tecnologias1" value="CSS">
+                <label for="tecnologias1">CSS</label>
+                
+                <input type="checkbox" id="tecnologias2" name="tecnologias2" value="JavaScript">
+                <label for="tecnologias2">Java Script</label>
+                <br><br>
 
-        <label>
-            <strong>Selecione as tecnologias que voce usa</strong>
-HTML</label><br><br>
+                <label for="nascimento">Data de nascimento</label>
+                <input type="datetime-local" name="nascimento" id="nascimento">
+                <br><br>
+            <input type="submit" value="Cadastrar
+                        ">
+    </form><br><br><br>
+    <!--Trabalhando com videos-->
+    <h1>Trabalhando com videos</h1>
 
-        <input type="checkbox" id="tecnologias3" name="tecnologias3" value="HTML">
-        <label for="tecnologias3">HTML</label>
-        
-        <input type="checkbox" id="tecnologias1" name="tecnologias1" value="CSS">
-        <label for="tecnologias1">CSS</label>
-        
-        <input type="checkbox" id="tecnologias2" name="tecnologias2" value="JavaScript">
-        <label for="tecnologias2">Java Script</label>
-        <br>
+    <video poster="thumb.png" width="420" height="340" controls loop muted autoplay>
+        <source src="natureza.mp4" type="video/mp4">
+    </video>
+    <br><br>
+    <h1>Tag de audio</h1>
+    <audio controls>
+        <source src="curso.mp3" type="audio/mpeg">
+    </audio>
+    <br><br>
+    <h1>Tag datail e summary</h1>
+    <details open>
+        <summary>Motor 1.6</summary>
+        <p>O carro possui um motor super forte</p>
+    </details>
+    <details>
+        <summary>Conforto</summary>
+        <p>Carro de luxo com sensor de ré, cameras e som de qualidade</p>
+    </details>
+    <details>
+        <summary>preço</summary>
+        <p>12 x R$1.000</p>
+    </details>
+    <br><br>
+    <h2>Aplicando datalist</h2>
+    <form>
+        <input list="carros" name="carro" placeholder="procurando algum carro">
+        <datalist id="carros">
+            <option value="Gol 1.6"></option>
+            <option value="golf 1.4"></option>
+            <option value="BMW 1.0"></option>
+            <option value="onix 1.0"></option>
+        </datalist>
     </form>
 </body>
 

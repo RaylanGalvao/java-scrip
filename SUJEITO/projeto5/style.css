@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+}
+
+
+.primeiro_h1{
+    color: #8dc6089f;
+    font-family: "Roboto", sans-serif;
+} 
+
+.conteiner{
+    background-color: #121212;
+    width: 700px;
+    color: #ffffff;
+    margin: auto;
+    padding: 15px;
+    border: 5px solid  red;
+    border-radius: 50px;
+}
