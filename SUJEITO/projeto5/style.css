@@ -3,6 +3,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    height: 180vh;
+}
 
 
 .primeiro_h1{
@@ -19,3 +22,35 @@
     border: 5px solid  red;
     border-radius: 50px;
 }
+.rede_social h2{
+    text-align: center;
+}
+.rede_social ul{
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+.rede_social li {
+    margin-bottom: 12px;
+}
+.rede_social a{
+    text-decoration: none;
+    color: #121212;
+}
+.rede_social a:hover{
+    color: red;
+}
+
+.area{
+    width: 200px;
+    height:200px;
+
+    background-color:  green;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+/* .area_absoluta{
+    position: absolute;
+    border: 5px solid blue;
+} */
