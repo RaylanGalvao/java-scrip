@@ -54,3 +54,11 @@ body{
     position: absolute;
     border: 5px solid blue;
 } */
+
+header{
+    background-color: cyan;
+    width: 100%;
+
+    position: sticky;
+    top: 0;
+}

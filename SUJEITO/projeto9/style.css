@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 180vh;
+}
+.conteiner{
+    background-color: #121212;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.area{
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+}
+.item_1{
+    background-color: red;
+    align-self: flex-end;
+}
+.item_2{
+    background-color: blue;
+    align-self: flex-start;
+}
+.item_3{
+    background-color: green;
+}
+.item_4{
+    background-color: brown;
+    align-self: flex-end;
+}

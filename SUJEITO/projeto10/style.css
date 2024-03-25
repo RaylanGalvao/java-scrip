@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: #181818e4;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+.nav_list a{
+    text-decoration: none;
+    color: #ddd;
+    padding: 20px;
+}
+.nav_list a:hover{
+    color: #ffffff;
+}
+.main{
+    width: 100%;
+    background-color: #000;
+    height: calc(100vh - 80px);
+    background-image: url("images/programador.png");
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.main h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+.main p{
+    font-size: 24px;
+    font-style: italic;
+    color: #1e96fc;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.call_to_action{
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 0;
+    padding: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.main a{
+    text-decoration: none;
+    color: #181818e4;
+}
