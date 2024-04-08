@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    width: 100%;
+    background-color: rgba(240, 214, 187, 0.134);
+}
+ul{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 24px;
+}
+img{
+    max-width: 450px;
+    height: 250px;
+    border-radius: 4px;
+    margin: 8px 0;
+}
